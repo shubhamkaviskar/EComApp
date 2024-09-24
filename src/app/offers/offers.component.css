@@ -1,0 +1,27 @@
+.offers-box {
+    width: 100%;
+    padding: 90px 70px 50px 70px;
+    background: rgba(0, 77, 77, .9);
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.offer-item {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.offer-description {
+    font-size: 14px;
+    color: #aaa;
+}

@@ -25,6 +25,7 @@
     text-decoration: none;
     color: blueviolet;
     cursor: pointer;
+    display: inline-block;
 }
 
 .nav .nav-search {

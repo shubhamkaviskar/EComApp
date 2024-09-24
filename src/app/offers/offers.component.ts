@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-signup',
+  selector: 'app-offers',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './signup.component.html',
-  styleUrl: './signup.component.css'
+  templateUrl: './offers.component.html',
+  styleUrl: './offers.component.css'
 })
-export class SignupComponent {
+export class OffersComponent {
 
 }

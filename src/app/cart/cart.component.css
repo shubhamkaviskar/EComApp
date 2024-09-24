@@ -1,0 +1,48 @@
+.cart-box {
+    width: 100%;
+    padding: 90px 70px 50px 70px;
+    background: rgba(0, 77, 77, .9);
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.item-name, .item-quantity, .item-price {
+    font-size: 14px;
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.button {
+    background: #1161ee;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background: #0056b3;
+}

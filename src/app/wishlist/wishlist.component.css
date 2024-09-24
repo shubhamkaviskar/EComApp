@@ -1,0 +1,49 @@
+.wishlist-box {
+    width: 100%;
+    padding: 90px 70px 50px 70px;
+    background: rgba(0, 77, 77, .9);
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.wishlist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.item-name, .item-price {
+    font-size: 14px;
+}
+
+.button {
+    background: #1161ee;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.remove-button {
+    background: red;
+}
+
+.remove-button:hover {
+    background: darkred;
+}
